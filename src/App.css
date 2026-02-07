@@ -1,0 +1,36 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.container{
+  display: flex;
+}
+
+.card1 {
+  padding: 0.5em;
+  width:30%;
+  height:490px;
+  border: solid 1px rgb(251, 255, 0);
+}
+
+.card2 {
+  padding: 0.5em;
+  width:70%;
+  height:490px;
+  border: solid 1px rgb(255, 238, 0);
+  border-left: none;
+}
+
+.card2 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+.read-the-docs {
+  color: #888;
+}
