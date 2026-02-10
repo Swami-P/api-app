@@ -30,7 +30,26 @@
   object-fit: contain;
 }
 
+.joke-box {
+  background-color: rgb(221, 247, 251);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.joke-setup {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.joke-punchline {
+  color: #e63946; /* punchline color */
+  font-weight: bold;
+  font-size: 17px;
+}
+
 
 .read-the-docs {
   color: #888;
 }
+
